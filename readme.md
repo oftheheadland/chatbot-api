@@ -1,22 +1,33 @@
-# Poast-It
+# Chatbot API
 
-Poast-It is a web app that lets you create and share messages and links in an encrypted format. Simple enter your message and set a key. Your message is safely behind AES256 encryption and will not be viewed by anyone unless they have the key you set.
+API for my my discord bot, [Jamie-Bot](https://discordbotlist.com/bots/494325818605043724), to use. But others are welcome to use it, too.
+Uses Chatterbot to return intelligent responses to your input - and learns as it goes.
+
+## Example 
+
+Example GET Request
+
+```python
+import requests
+from urllib.parse import quote
+
+query = 'insert your text here'
+url = "https://jamie-chatter.herokuapp.com/chatter/" + quote(query)
+
+response = requests.request("GET", url)
+
+print(response.text)
+```
 
 ## Getting Started
 
 - Clone the repo
 - pip install -r requirements.txt 
-- setup a SQL database using the provided poast.sql file
-- setup environment variables
 - flask run
 
 ## Authors
 
 * **Andrew VanNess** - [oftheheadland](https://github.com/oftheheadland)
-
-## Contributors
-
-* [johnsfalconi](https://github.com/johnsfalconi)
 
 ## License
 
