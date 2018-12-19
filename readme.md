@@ -1,7 +1,7 @@
 # Chatbot API
 
-API for my my discord bot, [Jamie-Bot](https://discordbotlist.com/bots/494325818605043724), to use. But others are welcome to use it, too.
-Uses Chatterbot to return intelligent responses to your input - and learns as it goes.
+API for my my discord bot, [Jamie-Bot](https://discordbotlist.com/bots/494325818605043724), to use. But others are welcome to use it.
+Uses [Chatterbot](https://pypi.org/project/ChatterBot/) to return intelligent responses to your input - and learns as it goes.
 
 ## Example 
 
